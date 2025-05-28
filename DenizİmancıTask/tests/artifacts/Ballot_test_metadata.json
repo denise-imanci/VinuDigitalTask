@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paymaster",
+				"outputs": [
+					{
+						"internalType": "contract Paymaster",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleAccountA",
+				"outputs": [
+					{
+						"internalType": "contract SimpleAccount",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testToken",
+				"outputs": [
+					{
+						"internalType": "contract TestToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTokenTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "beforeAll: Remix bu fonksiyonu testlerden önce otomatik çalıştırır"
+				},
+				"testTokenTransfer()": {
+					"notice": "testTokenTransfer: A'dan B'ye token transfer testidir"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/TestCase.sol": "Ballot_test"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Paymaster.sol": {
+			"keccak256": "0x30fb88618c28e5a5c1327c24594e4ce288ca439e874bdcc0ed4822628e980879",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e0ee49493762485ace191823f01bddb2305fbafac1ad14c56b38271a862a34c",
+				"dweb:/ipfs/QmRKgTMrEbinjBjm31CJyrHCFLeu1wuymT2Rem6j2VYiY6"
+			]
+		},
+		"contracts/SimpleAccount.sol": {
+			"keccak256": "0xf3daab73c2475104768f7bef50b7574c87d47534cee76f051147a6fcd45e1bd8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84074a0f4335a955b2466e4fa6ed1fa6d941d05243f1ecbb5ae22aaca946294f",
+				"dweb:/ipfs/QmVn1NDvUZXTbsfNitFBWg7RXkYYQXem5wFk5vCNV3rCDS"
+			]
+		},
+		"contracts/TestToken.sol": {
+			"keccak256": "0x94c5a3d3cac4058b29a4c3ccd00f26e6bace6ec3c3645f3000c19bfb90abfbca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0337aa6910a83e28d4bbd332e4d98b820f552d1800f64457a27cac42f49aae61",
+				"dweb:/ipfs/QmTT22oKYgZACeT9zw5AnLdBXcmfkuekk3v7vNBczS8Ty8"
+			]
+		},
+		"contracts/UserOperation.sol": {
+			"keccak256": "0x2520feb818362bb81a269064b464f27de089bb752278c144e549995114b30208",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ddebb42b109e91a1e849ddec1c8bea5f2e00a713aded9cb71c7472d4deaa9c0f",
+				"dweb:/ipfs/QmXtM7fvFGXDC4dLW48HuFKb4nLgyCTEAEV5fR6EkJRu6t"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/TestCase.sol": {
+			"keccak256": "0xbcae6ce6b7d91d24b80dd64f5d51f071d0f88e1f20a4e122b6a148d6622c1ea3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://090cd71d494f452c96cc3692ad428f89960d55274f681cbf97ddbcc267fea542",
+				"dweb:/ipfs/QmQapHGbbJR6iTvjGiaPSLS2WsNTrjv849Moqfzjxexqag"
+			]
+		}
+	},
+	"version": 1
+}
